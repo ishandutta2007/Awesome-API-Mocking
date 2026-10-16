@@ -26,59 +26,27 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
-
-
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global API simulation and service virtualization sector is valued at approximately **$0.8B to $1.2B**, expanding at a 14%–17% CAGR toward an estimated **$2.3B–$3.8B** over the next decade. The market is **moderately concentrated at the enterprise level** (anchored by testing suites like SmartBear and legacy virtualization providers), while remaining **highly fragmented at the developer-first and open-source tier** where standalone cloud mock engines and local CLI simulators compete.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[WireMock Cloud](https://wiremock.io/)**  
-
-  **The industry standard for scalable API simulation** with collaboration, advanced features, and AI . Features **stateful mocking, CSV or database import, contract-based validation, chaos testing, and rate limit simulations** . **Hosted/hybrid/on-prem deployment** with built-in versioning, shared API mocks, and team collaboration/ACLs . **Free tier**: 1,000 calls/month, 3 mock APIs . **Whole-API chaos injection** (random latency/errors across all traffic, no per-stub setup) is a capability **only WireMock Cloud provides** among compared tools .
-
-
-
-- **[Beeceptor](https://beeceptor.com/)**  
-
-  **Instant mock server with AI-powered OpenAPI mocking** . Upload an OAS file and get **realistic, contextual responses** in under a minute—product names, people names, addresses, SSNs—using AI and **300+ built-in data generators** . **Custom response overrides** let you control specific fields for predictable testing . **Forward Proxy** intercepts outbound traffic for inspection and selective mocking of third-party APIs . **Pricing**: Free (50 req/day, 3 rules), Individual **$10/month** (15,000 req/month, 50 rules), Team **$25/month** (100,000 req/month, 250 rules), Scale **$99/month** (1M+ req/month, 500 rules) .
-
-
-
-- **[Postman Mock Server](https://www.postman.com/)**  
-
-  **Cloud and local mock servers** from saved collection examples . **Local Mocks** (Postman Desktop) let you simulate a real API server directly from your Git-enabled local project—work against mocked responses in the same branch where you're making API changes . **Cloud Mocks** for collaboration and sharing . **Free plan**: unlimited cloud and local mock servers . **Limitation**: Only HTTP collections supported—multi-protocol collections can't be turned into a mock server .
-
-
-
-- **[Apidog](https://apidog.com/)**  
-
-  **All-in-one API development platform** with design, debugging, testing, mocking, and documentation. Features **OpenAPI support** and **team collaboration**.
-
-
-
-- **[ReadyAPI Virtualization](https://smartbear.com/product/ready-api/)**  
-
-  **Enterprise service virtualization** from SmartBear. Features **protocol support across REST, SOAP, JMS, JDBC, and more** . **The most enterprise-focused option** for complex virtualization needs.
-
-
-
-- **[MockLab](https://www.mocklab.io/)**  
-
-  **Hosted WireMock service**—the creator of WireMock runs it as a managed service . **The simplest path to WireMock functionality** without self-hosting.
-
-
+| Platform | Company Size / Valuation | Pricing (Starting Tier) | Free Tier Limits | Key Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Postman Mock Server](https://www.postman.com/)** | **$5.6B valuation** (~$313M ARR) | **$9 / user / month** (Solo tier, billed annually) | **Free forever**: 1 user, multi-protocol client, unlimited local/cloud mock servers (usage subject to standard account call limits) | Simulates APIs from saved collection examples; offers both local desktop mocks and cloud mock collaboration. |
+| **[ReadyAPI Virtualization](https://smartbear.com/product/ready-api/)** (SmartBear) | **>$1.2B valuation** (~$500M+ revenue) | **$1,069 / year** (~$89/mo, ReadyAPI Test/Virtualization fixed license) | **14-day free trial**: Full Pro access to Test, Performance, and Virtualization modules (no permanent free tier) | Enterprise service virtualization supporting REST, SOAP, JMS, JDBC, and event-driven architectures. |
+| **[WireMock Cloud](https://wiremock.io/)** *(formerly MockLab)* | **$6.5M funding** (~$0.6M–$1.2M ARR) | **Custom-quoted / Enterprise** (Inquire for paid tiers) | **Free forever**: 1 user, 1,000 mock API calls/calendar month, 3 mock APIs, 10 req/s rate limit | Managed WireMock with stateful mocking, whole-API chaos injection, CSV/DB imports, and contract validation. |
+| **[Apidog](https://apidog.com/)** | **Bootstrapped / Private** (Early stage, undisclosed) | **$9 / user / month** (Basic tier, billed annually) | **Free forever**: Up to 4 team members, 5 projects, unlimited mock runs and visual API design | Integrated API design, debugging, automated testing, documentation, and smart mock servers. |
+| **[Beeceptor](https://beeceptor.com/)** | **Bootstrapped / Private** (<20 employees, undisclosed) | **$10 / month** (Individual tier; Team at $25/mo) | **Free forever**: 50 requests/day, 3 mock rules, public endpoint | Instant OpenAPI-driven mock server with AI contextual generators and forward proxy traffic inspection. |
 
 ## Open-Source GitHub Projects
 
